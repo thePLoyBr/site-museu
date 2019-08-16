@@ -1,0 +1,133 @@
+
+*{padding: 0; margin: 0;}
+
+.principal{
+    width: 100%;
+    margin: 10px auto;
+}
+
+.logo{
+    width: 200px;
+    padding: 20px;
+    float: left;
+}
+
+.menu{
+    line-height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 30px;
+    padding: 10px;
+    color: white;
+    float: right;
+}
+
+.navbar{
+    background: #211e42 url(_images/capa.jpg) no-repeat center;
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+
+#galeria-home>img{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 400px;
+}
+
+.coluna1{
+    float: left;
+    width: 45%;
+    height: 720px;
+    padding: 15px 20px;
+    background: #0f0f0f;
+    margin-bottom: 10px;
+}
+
+.coluna2{
+    float: right;
+    width: 45%;
+    height: 720px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: whitesmoke;
+    background:  #0f0f0f;
+    padding: 1% 1%;
+    margin-bottom: 10px;
+    padding-right: 40px;
+
+}
+
+.coluna2>img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.fotos{
+    width: 90%;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px black;
+    border: 4px solid white;
+
+}
+
+
+h2 {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+.container-rodape {
+    clear: both;
+}
+.rodape{
+    background: #111022;
+    height: 400px;
+    width: 100%;
+    bottom: 0px;
+}
+
+
+.info1, .info2, .info3{
+    border-right: 1px solid gainsboro;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    height: 352px;
+    float: left;
+    font-size: 14px;
+    color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info3 {
+    border: none;
+}
+
+p{
+    color: rgb(174, 201, 202);
+}
+
+body{
+    background: #242121;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 20px;  
+}
+
+
+a:hover{
+    color: aquamarine;
+    background: orange;
+}
+
+a{ transition: background-color 0.5s linear}
+
+.clear{
+    clear: both;
+}
